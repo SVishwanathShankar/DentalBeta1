@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+
+.section{
+	position: relative;
+}
+.image{
+	width: 100%;
+}
+
+.header{
+	background-color: rgb(0, 217, 255);
+	height: 100px;
+	}
+	
+.footer{
+	background-color: rgb(0, 217, 255);
+	height: 100px;
+}
+.button-sec{
+	position: absolute;
+	top: 128px;
+	left: 43px;
+}
+.def-button{
+	top: 200px;
+height: 24;
+width: 84;
+}
+
+.deff-button{
+	width: 58px;
+height: 36px;
+}
+
+.grid-sec{
+	
+	position: absolute;
+	top: 128px;
+	left: 43px;
+}
+
+
