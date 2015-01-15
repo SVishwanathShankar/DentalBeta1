@@ -14,27 +14,27 @@
 <div class="BUTTON-sec">
 <?php 
 session_start();
-$Name = $_SESSION['Name'];
-$Mobile = $_SESSION['Mobile'];
-$Dob = $_SESSION['Dob'];
+$description = $_SESSION['description'];
+$prescription = $_SESSION['prescription'];
+$amount_charged = $_SESSION['amount_charged'];
 session_write_close();
 
 
 ?>
 
-<label><?php echo $Name;?></label></br></br>
-
-<label><?php echo $Mobile;?></label>
-<br /><br /><br />
-
-
    <label>History</label>
    
    <table>
    <th>Date</th>
-   <td><?php echo $Name;?></td>
    <th>Description</th>
+   	<td><?php echo $description;?></td>
+   	<br />
    <th>Prescreption</th><br /> 	
+    <td><?php echo $prescription;?></td>
+    <br />
+    <th>Amount charged</th>
+     <td><?php echo $amount_charged;?></td>
+     <br />
    		<tr>	<td>10/12/1997</td><tr>
    </table>
 </div>
