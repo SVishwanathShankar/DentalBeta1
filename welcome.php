@@ -14,10 +14,14 @@
 		<img class="image"
 			src="http://photo.elsoar.com/wp-content/images/Smiling-cartoon-teeth-in-dentist-cabinet.jpg">
 		<div class="button-sec">
-			<label>Search Patient</label> <input class="def-input"><br />
+		<form action="Search.php" method="post">
+			<label>Search Patient</label> <input name="patient" class="def-input"><br />
 			<br />
 			<button class="def-button">Search</button>
+		</form>
+		<form action="New_Patient.php" method="post">
 			<button class="def-button">Add Patient</button>
+			</form>
 
 		</div>
 	</div>

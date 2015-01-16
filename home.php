@@ -12,11 +12,14 @@
 <div class="section">
 <img class="image" src="http://photo.elsoar.com/wp-content/images/Smiling-cartoon-teeth-in-dentist-cabinet.jpg">
 <div class="button-sec">
-	
-   <label>User Name</label> <input class="def-input"><br /><br />
-     
-     <label>Password</label>&nbsp;&nbsp;  <input class="def-input"><br /><br />
-    <button class="def-button">Submit</button>
+
+<form action="ValidateUser.php" method="post">
+   <label>User Name</label> <input name="userName" class="def-input">
+     </br>
+     <label>Password</label>&nbsp;&nbsp;  <input name="password" class="def-input">
+     </br>
+     <input type="submit" value="Submit">
+    </form>	
 </div>
 </div>
 
